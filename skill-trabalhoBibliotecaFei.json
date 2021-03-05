@@ -1,0 +1,990 @@
+{
+  "intents": [
+    {
+      "intent": "bitly",
+      "examples": [
+        {
+          "text": "bitly"
+        },
+        {
+          "text": "encurtar"
+        },
+        {
+          "text": "encurtar url"
+        },
+        {
+          "text": "url"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "entrega_trabalhos",
+      "examples": [
+        {
+          "text": "entrega"
+        },
+        {
+          "text": "entrega de trabalho"
+        },
+        {
+          "text": "entregar dissertacao"
+        },
+        {
+          "text": "entregar monografia"
+        },
+        {
+          "text": "entregar tcc"
+        },
+        {
+          "text": "enviar trabalho"
+        },
+        {
+          "text": "procedimento para entrega"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ficha_catalografica",
+      "examples": [
+        {
+          "text": "elaborar ficha"
+        },
+        {
+          "text": "ficha"
+        },
+        {
+          "text": "Ficha Catalografica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "guia_de_trabalhos",
+      "examples": [
+        {
+          "text": "como montar um trabalho"
+        },
+        {
+          "text": "como normalizar"
+        },
+        {
+          "text": "elaboracao"
+        },
+        {
+          "text": "guia de trabalhos"
+        },
+        {
+          "text": "guia para elaboracao"
+        },
+        {
+          "text": "norma abnt"
+        },
+        {
+          "text": "orientacao abnt"
+        },
+        {
+          "text": "padronizacao de trabalho"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "latex_fei",
+      "examples": [
+        {
+          "text": "como escrever em latex?"
+        },
+        {
+          "text": "como usar latex"
+        },
+        {
+          "text": "latex"
+        },
+        {
+          "text": "miktex"
+        },
+        {
+          "text": "tex"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mendeley",
+      "examples": [
+        {
+          "text": "compartilhar trabalho"
+        },
+        {
+          "text": "mendeley"
+        },
+        {
+          "text": "pesquisadores"
+        },
+        {
+          "text": "rede social"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "more",
+      "examples": [
+        {
+          "text": "como faço uma citação?"
+        },
+        {
+          "text": "mecanismo online para referencias"
+        },
+        {
+          "text": "more"
+        },
+        {
+          "text": "referencia abnt"
+        },
+        {
+          "text": "referencias"
+        },
+        {
+          "text": "referencias automaticas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "orientacao_trabalhos",
+      "examples": [
+        {
+          "text": "agendar"
+        },
+        {
+          "text": "agendar atendimento"
+        },
+        {
+          "text": "agendar orientacao"
+        },
+        {
+          "text": "atendimento"
+        },
+        {
+          "text": "marcar horario"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "plagio",
+      "examples": [
+        {
+          "text": "combate ao plagio"
+        },
+        {
+          "text": "copia"
+        },
+        {
+          "text": "plagio"
+        },
+        {
+          "text": "trabalhos iguais"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reforma_ortografica",
+      "examples": [
+        {
+          "text": "como escrever"
+        },
+        {
+          "text": "dicionario"
+        },
+        {
+          "text": "guia da reforma"
+        },
+        {
+          "text": "ortografia"
+        },
+        {
+          "text": "reforma ortografica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "template",
+      "examples": [
+        {
+          "text": "template"
+        },
+        {
+          "text": "templates"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "termos_autorizacao",
+      "examples": [
+        {
+          "text": "autorizacao"
+        },
+        {
+          "text": "divulgacao"
+        },
+        {
+          "text": "encaminhamento"
+        },
+        {
+          "text": "licenca"
+        },
+        {
+          "text": "periodico em grupo"
+        },
+        {
+          "text": "periodico individual"
+        },
+        {
+          "text": "termos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tutorial",
+      "examples": [
+        {
+          "text": "tutoriais"
+        },
+        {
+          "text": "tutorial"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "itens",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Citacao",
+          "synonyms": [
+            "citacoes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Estrutura",
+          "synonyms": [
+            "estruturas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Referencias",
+          "synonyms": [
+            "referencia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "template",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "academico",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "iniciacao cientifica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "plano de negocios",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tutorial",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "lista de ilustracoes",
+          "synonyms": [
+            "ilustracoes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lista de tabelas",
+          "synonyms": [
+            "tabelas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paginacao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salvar em pdf",
+          "synonyms": [
+            "pdf"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sumario",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Digite em poucas palavras em que você tem dúvida sobre trabalhos acadêmicos da FEI."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1614813252744",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1614813228906",
+      "event_name": "input",
+      "dialog_node": "handler_1_1614813228942"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1614815341799",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1614815341813",
+      "previous_sibling": "handler_6_1614815341813"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1614813228906",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1614813228942",
+      "previous_sibling": "handler_1_1614813228942"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1614815341799",
+      "context": {
+        "itens": "@itens"
+      },
+      "conditions": "@itens",
+      "event_name": "input",
+      "dialog_node": "handler_6_1614815341813"
+    },
+    {
+      "type": "standard",
+      "title": "Ficha Catalografica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc.\n\n<a href=\"http://sofia.fei.edu.br/ficha/\">Elaborar Ficha</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ficha_catalografica",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1614811375020",
+      "previous_sibling": "node_1_1614812685138"
+    },
+    {
+      "type": "standard",
+      "title": "Orientação para normalização",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Serviço temporariamente suspenso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#orientacao_trabalhos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1614813350226",
+      "previous_sibling": "node_3_1614813467571"
+    },
+    {
+      "type": "standard",
+      "title": "Pre Guia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O guia substitui o Manual para apresentação formal de trabalhos acadêmicos. Elaborado de acordo com as normas vigentes da Associação Brasileira de Normas Técnicas (ABNT), traz um novo formato, além de novos exemplos com uma linguagem simples para facilitar a compreensão dos usuários.\n\nInformamos que o guia está disponível somente na versão eletrônica.\n\nO seu enfoque não é só a padronização disponibilizada através das normas estabelecidas, mas principalmente a qualidade dos trabalhos apresentados na instituição.\n\nSe precisar de mais informações, me pergunte sobre referencias, citações ou estrutura, ou ainda, tenho alguns tutoriais e templates."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#guia_de_trabalhos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1614817001795",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Procedimento para entrega de Trabalhos Acadêmicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os trabalhos acadêmicos devem ser entregues de acordo com os procedimentos da secretaria do curso. Cabe ao orientador, juntamente com a secretaria, definir quais trabalhos serão entregues, assim como, efetuar a entrega na biblioteca.\n\nAlguns procedimentos são obrigatórios para que essa entrega seja realizada:\na) o trabalho acadêmico deve ser normalizado de acordo com as orientações do Guia para Elaboração de Trabalhos Acadêmicos da FEI;\nb) uma cópia impressa em capa dura na cor preta e letras douradas (Monografias e TCCs) ou na cor azul-marinho e letras douradas (Teses e Dissertações);\n- uma mídia (CD ou DVD) contendo somente o PDF/A para as monografias e TCCs;\n- uma cópia da versão final da dissertação ou tese no formato PDF/A encaminhada para o e-mail: bib.dissertacoes_teses@fei.edu.br;\n- termo de autorização para a publicação eletrônica preenchido e assinado por todos os autores do trabalho;\nc) a entrega na biblioteca deverá ser feita pelo orientador ou pela secretaria do curso. A biblioteca não aceita trabalhos entregues diretamente pelos alunos.\n\n<p style=\"font-weight: bold font-size:14\">Lista de Termos:</p>\n<ul>\n<li><a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_grupo.docx\">Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo).</a></li>\n<li><a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_individual.docx\">Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo).</a></li>\n<li><a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_tcc.docx\">Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo).</a></li>\n<li><a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_tese.docx\">Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo).</a></li>\n<li><a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/termo_de_encaminhamento_biblioteca.docx\">Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo).</a></li>\n</a>\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#entrega_trabalhos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1614812685138",
+      "previous_sibling": "node_10_1614813350226"
+    },
+    {
+      "type": "standard",
+      "title": "Reforma Ortográfica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saiba o que mudou na ortografia brasileira.\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/guia_reforma_ortografica_cp.pdf\">Clique aqui para acessar o manual para acessar o guia da nova reforma ortográfica</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#reforma_ortografica",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1614814269455",
+      "previous_sibling": "node_10_1614817001795"
+    },
+    {
+      "type": "standard",
+      "title": "Classe LaTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A classe LaTeX da FEI é um arquivo de formatação de trabalhos acadêmicos para usuários de LaTeX, de acordo com as normas de formatação do Centro Universitário FEI. Ela está disponível nas principais distribuições de LaTeX (<a href=\"https://miktex.org/\">MikTex</a> no Windows, <a href=\"http://www.tug.org/mactex/\">MacTeX</a> no MacOS e <a href=\"https://www.tug.org/texlive/\">TeX Live</a> no Linux), possui um <a href=\"http://mirrors.ctan.org/macros/latex/contrib/fei/fei.pdf\">manual de utilização</a> em PDF e um <a href=\"http://mirrors.ctan.org/macros/latex/contrib/fei/fei-template.tex\">template</a> para ajudar usuários a iniciar seus trabalhos acadêmicos.\n\nA classe também possui um <a href=\"http://douglasrizzo.com.br/Classe-Latex-FEI/\">site</a> e um <a href=\"https://groups.google.com/forum/#!topic/grupo-latex-fei/CmJgGQiFZy4\">grupo no Google</a> com dicas para usuários. O projeto de código aberto é mantido no <a href=\"https://github.com/douglasrizzo/Classe-Latex-FEI\">GitHub</a>, tendo como desenvolvedor principal Douglas De Rizzo Meneghetti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#latex_fei",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1614813467571",
+      "previous_sibling": "node_3_1614813982692"
+    },
+    {
+      "type": "standard",
+      "title": "Referencias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MORE é uma ferramenta gratuita e fácil de usar, que produz automaticamente citações no texto e referências no formato ABNT.\n\n<a href=\"http://www.more.ufsc.br/\">Clique aqui para acessar o MORE</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#more",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1614813982692",
+      "previous_sibling": "node_8_1614814051472"
+    },
+    {
+      "type": "standard",
+      "title": "Tutoriais",
+      "parent": "node_7_1614813419582",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@tutorial",
+      "dialog_node": "node_3_1614816768490",
+      "previous_sibling": "node_7_1614816731472"
+    },
+    {
+      "type": "standard",
+      "title": "Plagio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca do Centro Universitário FEI, por recomendação da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), divulga ao seu público um texto informativo, com intuito de coibir o plágio nas produções acadêmicas desenvolvidas na IES.\n\nPara auxiliá-los segue opções gratuitas de detecção de plágio:\n\n<a href=\"http://www.plagiarismcombat.com/\">Farejador de Plágio</a>\n\n<a href=\"http://www.plagium.com/\">Plagium</a>\n\n<a href=\"http://plagiarisma.net/\">Plagiarisma</a>\n\n<a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/novembro/plagio.pdf\">Saiba mais sobre o plágio</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#plagio",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1614813252744",
+      "previous_sibling": "node_10_1614811375020"
+    },
+    {
+      "type": "standard",
+      "title": "Bitly",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "bitly é um dos mais famosos gerenciadores e encurtadores de URL da internet. Confira!\n\n<a href=\"https://bitly.com/\">Clique aqui para acessar o bitly</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bitly",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1614814180558",
+      "previous_sibling": "node_1_1614814269455"
+    },
+    {
+      "type": "standard",
+      "title": "elaboração de trabalhos",
+      "parent": "node_10_1614817001795",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@itens || #template || #tutorial",
+      "dialog_node": "node_7_1614813419582"
+    },
+    {
+      "type": "standard",
+      "title": "Template",
+      "parent": "node_7_1614813419582",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@template",
+      "dialog_node": "node_7_1614816731472"
+    },
+    {
+      "type": "standard",
+      "title": "Mendeley",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Mendeley é considerado uma rede social acadêmica que conecta pesquisadores e permite gerenciar referências, buscar, arquivar e compartilhar documentos.\n\n<a href=\"https://www.mendeley.com/reference-management/reference-manager\"> Clique aqui para acessar o Mendeley</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#mendeley",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1614814051472",
+      "previous_sibling": "node_6_1614814180558"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/template.docx\">aqui</a> para template de trabalho acadêmico"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614816731472",
+      "conditions": "@template:(academico)",
+      "dialog_node": "response_10_1614970304879"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saiba mais sobre Referências <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/referencias_2020.pdf\">Aqui</a>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614813419582",
+      "conditions": "@itens:Referencias",
+      "dialog_node": "response_10_1614970737884",
+      "previous_sibling": "node_3_1614816768490"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saiba mais sobre Estrutura <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/estrutura_2020.pdf\">Aqui</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614813419582",
+      "conditions": "@itens:Estrutura",
+      "dialog_node": "response_3_1614816189880",
+      "previous_sibling": "response_10_1614970737884"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual tutorial"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614813419582",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1614816768490"
+      },
+      "conditions": "#tutorial",
+      "dialog_node": "response_3_1614816409840",
+      "previous_sibling": "response_6_1614816408789"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/sumario.pdf\">aqui</a> para tutorial sobre sumário"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614816768490",
+      "conditions": "@tutorial:sumario",
+      "dialog_node": "response_3_1614970862518",
+      "previous_sibling": "response_4_1614970859549"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateplanodenegocios.docx\">aqui</a> para template de plano de negócios do curso de Administração"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614816731472",
+      "conditions": "@template:(plano de negocios)",
+      "dialog_node": "response_4_1614970328708",
+      "previous_sibling": "response_6_1614970327680"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/paginacao.pdf\">aqui</a> para tutorial sobre paginação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614816768490",
+      "conditions": "@tutorial:paginacao",
+      "dialog_node": "response_4_1614970859549"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/conversorpdf.pdf\">aqui</a> para tutorial sobre conversão para PDF"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614816768490",
+      "conditions": "@tutorial:(salvar em pdf)",
+      "dialog_node": "response_4_1614970865035",
+      "previous_sibling": "response_5_1614970864240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/tabelas.pdf\">aqui</a> para tutorial sobre lista de tabelas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614816768490",
+      "conditions": "@tutorial:(lista de tabelas)",
+      "dialog_node": "response_5_1614970864240",
+      "previous_sibling": "response_9_1614970863475"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que tipo de template?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614813419582",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1614816731472"
+      },
+      "conditions": "#template",
+      "dialog_node": "response_6_1614816408789",
+      "previous_sibling": "response_7_1614970739300"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateiniciacaocientifica.docx\">aqui</a> para template de trabalhos de Iniciação Científica"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614816731472",
+      "conditions": "@template:(iniciacao cientifica)",
+      "dialog_node": "response_6_1614970327680",
+      "previous_sibling": "response_10_1614970304879"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saiba mais sobre Citação <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/vestibular/22020/citacao_rev-2020.pdf\">Aqui</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614813419582",
+      "conditions": "@itens:Citacao",
+      "dialog_node": "response_7_1614970739300",
+      "previous_sibling": "response_3_1614816189880"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique <a href=\"https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/ilustracoes.pdf\">aqui</a> para tutorial sobre lista de ilustrações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614816768490",
+      "conditions": "@tutorial:(lista de ilustracoes)",
+      "dialog_node": "response_9_1614970863475",
+      "previous_sibling": "response_3_1614970862518"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1614813419582",
+      "variable": "$itens",
+      "dialog_node": "slot_4_1614815341799",
+      "previous_sibling": "response_3_1614816409840"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1614812685138",
+      "dialog_node": "slot_9_1614813228906"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "trabalhoBibliotecaFei",
+  "language": "pt-br",
+  "description": ""
+}
